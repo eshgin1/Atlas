@@ -1,0 +1,42 @@
+.contact{
+    margin-top: 20px;
+    &__block{
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 500px;
+        border: solid 2px #1b6973;
+        border-radius: 30px;
+        background: #1b6973;
+        &_flex{
+            display: flex;
+            align-items: center; 
+        }
+        &:hover{
+            background: #134b53;
+        }
+    }
+    &__mail{
+        text-align: center;
+        color: #fff;
+    }
+    &__phone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+    }
+    &__message{
+        margin: 0 auto;
+        text-decoration: none;
+        color: #fff;
+    }
+    &__icons{
+        width: 25px;
+    }
+    &__pic{
+        width: 100%;
+    }
+    
+}
